@@ -1,6 +1,6 @@
-# PromptKeeper
+# PromptVault
 
-PromptKeeper is a private prompt library for saving, searching, organizing, and copying the AI prompts you use repeatedly.
+PromptVault is a private prompt library for saving, searching, organizing, and copying the AI prompts you use repeatedly.
 
 ## Stack
 
@@ -37,7 +37,7 @@ The browser uses the signed-in Supabase session and only inserts prompts with th
 
 ## Deployment
 
-PromptKeeper is a Vite static frontend and can be deployed to Cloudflare Pages, Vercel, GitHub Pages, or another static host. Configure the two VITE_ variables in the host's environment settings before building.
+PromptVault is a Vite static frontend and can be deployed to Cloudflare Pages, Vercel, GitHub Pages, or another static host. Configure the two VITE_ variables in the host's environment settings before building.
 
 npm run build
 

@@ -53,7 +53,7 @@ export default function AuthScreen() {
             <button className="button button-primary button-wide" disabled={busy}>{busy ? 'Please wait…' : mode === 'login' ? 'Sign in' : 'Create account'} {!busy && <ArrowRight size={17} />}</button>
           </form>
         )}
-        <div className="auth-switch">{mode === 'login' ? 'New to PromptKeeper?' : 'Already have an account?'} <button onClick={() => { setMode(mode === 'login' ? 'signup' : 'login'); setMessage(null) }}>{mode === 'login' ? 'Create an account' : 'Sign in'}</button></div>
+        <div className="auth-switch">{mode === 'login' ? 'New to PromptVault?' : 'Already have an account?'} <button onClick={() => { setMode(mode === 'login' ? 'signup' : 'login'); setMessage(null) }}>{mode === 'login' ? 'Create an account' : 'Sign in'}</button></div>
       </div>
       <p className="auth-footer">Your prompts are protected by your account and database-level access rules.</p>
     </section>

@@ -1,4 +1,4 @@
--- PromptKeeper database schema
+-- PromptVault database schema
 create extension if not exists pgcrypto;
 create table if not exists public.prompts (
   id uuid primary key default gen_random_uuid(),
